@@ -25,7 +25,7 @@ import { TableLazyLoadEvent } from 'primeng/table';
 
 @Component({
   selector: 'top-pesquisaprocesso',
-  templateUrl: './pesquisaprocesso.component.html',
+  templateUrl: './pesquisaProcesso.component.html',
   styleUrls: ['./pesquisaprocesso.component.scss'],
 })
 export class PesquisaProcessoComponent implements OnInit, OnDestroy {
