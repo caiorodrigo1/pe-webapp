@@ -24,9 +24,9 @@ import { TableLazyLoadEvent } from 'primeng/table';
 // import { ProcessoArquivarComponent } from '../../components/processo-arquivar/processo-arquivar.component';
 
 @Component({
-  selector: 'top-pesquisaprocesso',
-  templateUrl: './pesquisaprocesso.component.html',
-  styleUrls: ['./pesquisaprocesso.component.scss'],
+  selector: 'top-pesquisa-processo',
+  templateUrl: './pesquisa-processo.component.html',
+  styleUrls: ['./pesquisa-processo.component.scss'],
 })
 export class PesquisaProcessoComponent implements OnInit, OnDestroy {
   //entidade: 'Processo';
