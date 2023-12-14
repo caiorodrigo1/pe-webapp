@@ -1,12 +1,13 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
+import { config } from 'src/app/core/config/config';
 
 @Injectable({
   providedIn: 'root',
 })
 export class ClienteService {
-  private readonly API_URL = 'https://bff.rocketconsultoria.tec.br/sso/auth';
+  private readonly API_URL = `${config['authUrl']}`;
 
   constructor(private httpClient: HttpClient) {}
 
